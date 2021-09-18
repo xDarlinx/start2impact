@@ -27,5 +27,38 @@
         </label>
         
     </header>
+
+    <div class="container">
+        <!-- Above the page -->
+        <div class="back-img above-the-page">
+            <h2 class="title">COSA SONO:</h2>
+            <div id="sequence" class="cosa-sono"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Mauris vitae imperdiet ligula, vitae iaculis ligula.
+                Aenean commodo, lacus vitae fringilla tincidunt.</p>
+            <button><a href="#">CONTATTAMI</a></button>
+        </div>
+        <!-- Servizi -->
+    </div>
 </body>
+
+<script>
+    var example = ['Graphic Designer', 'Web Designer', 'Web Developer'];
+
+    textSequence(0);
+    function textSequence(i) {
+
+        if (example.length > i) {
+            setTimeout(function() {
+                document.getElementById("sequence").innerHTML = example[i];
+                textSequence(++i);
+            }, 1000); // 1 second (in milliseconds)
+
+        } else if (example.length == i) { // Loop
+            textSequence(0);
+        }
+
+    }
+</script>
+
 </html>
