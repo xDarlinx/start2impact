@@ -32,7 +32,7 @@
 }
 
 body {
-    background-color: gray;
+    background-color: white;
     font-family: 'bw_modelicaregular';
 }
 /* barra di navigazione */ 
@@ -209,17 +209,19 @@ li {
     text-align: center;
 }
 
-.above-the-page > h2, p {
+.above-the-page > h2 {
     color: white;
+}
+
+.above-the-page > p {
+    font-family: 'bw_modelicamediumgh';
+    color: white;
+    margin: 15px;
 }
 
 .title {
     font-family: 'bw_modelicaextrabold';
     font-size: 2.2em;
-}
-
-.above-the-page p {
-    margin: 15px;
 }
 
 .cosa-sono {
@@ -241,4 +243,54 @@ li {
     font-size: 1.2em;
     text-decoration: none;
     color: black;
+}
+
+/* servizi */
+
+.servizi {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.icona-servizi {
+    width: 14em;
+    margin: 2em 0;
+}
+
+.servizio {
+    margin-top: 4rem;
+}
+
+.servizio > h3 {
+    font-size: 1.4em;
+    font-family: 'bw_modelicabold';
+}
+
+.servizio > p {
+    font-family: 'bw_modelicaregular';
+    font-size: 1em;
+}
+
+/* portfolio */
+
+.portfolio {
+    width: 100%;
+    margin: 50px auto;
+}
+
+.portfolio h2 {
+    text-align: center;
+    font-family: 'bw_modelicaextrabold';
+    font-size: 1.8em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.container-portfolio img {
+    width: 100%;
+}
+
+/* about me */
+
+.img-about-me img {
+    width: 100%;
 }
