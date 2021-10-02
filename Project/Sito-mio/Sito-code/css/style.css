@@ -336,3 +336,68 @@ footer img {
 .icone-social {
     width: 10%;
 }
+
+/* inizio desktop */
+
+@media screen and (min-width: 900px) {
+    .above-the-page {
+        text-align: left;
+        margin-left: 5rem;
+        padding-top: 12rem;
+    }
+
+    .above-the-page p {
+        margin-left: 0;
+        width: 40%;
+        font-size: 1.1em;
+    }
+
+    /* servizi */ 
+
+    .servizi {
+        display: flex;
+    }
+
+    .servizio {
+        padding: 20px;
+    }
+
+    .servizio p {
+        width: auto;
+    }
+
+    .container-portfolio {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .port {
+        margin: 0;
+        width: 33%;
+    }
+
+    /* about me */
+
+    .about-me {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .p-about-me {
+        width: 40%;
+        text-align: left;
+        margin-left: 5rem;
+        margin-top: 5rem;
+    }
+
+    .p-about-me p {
+        width: 80%;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    .img-about-me {
+        text-align: center;
+    }
+}
