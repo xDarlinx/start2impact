@@ -130,7 +130,7 @@ nav a:hover {
     margin: 2em;
 }
 
-li {
+nav li {
     font-family: 'bw_modelicamedium';
     text-transform: uppercase;
 }
@@ -305,4 +305,34 @@ li {
 .p-about-me p {
     margin: 20px 10px;
     padding: 10px;
+}
+
+/* footer */ 
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'bwmodelica_regular';
+}
+
+footer img {
+    width: 45%;
+    margin: 20px;
+}
+
+.footer-contattami {
+    margin: 20px;
+    display: block;
+    text-decoration: none;
+    color: #5218AF;
+    text-transform: uppercase;
+}
+
+.footer-contatti h3 {
+    margin-bottom: 10px;
+}
+
+.icone-social {
+    width: 10%;
 }
