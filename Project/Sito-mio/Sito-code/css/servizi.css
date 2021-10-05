@@ -102,16 +102,54 @@ nav a {
     justify-content: center;
     width: 100%;
     max-width: 1200px;
+    margin: 2em 0;
 }
 
-.content p {
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: left;
+    margin-left: 5em;
     width: 50%;
 }
 
-.icona img {
+.testo {
+    margin-left: 6em;
+}
+.content p {
     width: 100%;
+    margin: 1em 0;
+}
+.icona {
+    display: flex;
+    width: 50%;
+    margin-left: 1em;
+}
+.icona img {
+   width: 75%;
 }
 
+.container-graphicdesigner {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.content-graphicdesigner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.testo-graphicdesigner {
+    margin: 0;
+}
+
+.icona-graphicdesigner {
+    display: inline;
+}
 }
 
 
