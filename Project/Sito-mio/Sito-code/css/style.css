@@ -60,7 +60,7 @@ body {
 }
 
 .above-the-page p {
-    font-family: 'bw_modelicamediumgh';
+    font-family: 'bw_modelicamedium';
     color: white;
     margin: 15px;
 }
@@ -131,8 +131,12 @@ body {
     text-transform: uppercase;
     margin-bottom: 20px;
 }
+
+.container-portfolio {
+    text-align: center;
+}
 .container-portfolio img {
-    width: 100%;
+    width: 80%;
 }
 
 /* about me */
@@ -210,6 +214,10 @@ body {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+    }
+
+    .container-portfolio img {
+        width: 100%;
     }
 
     .port {
