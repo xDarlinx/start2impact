@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/favicon.png"/>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/contatti.css">
+    <title>Contatti</title>
+</head>
+<body>
+
+     <!--Barra di navigazione-->
+    <header>
+        <img  class="logo" src="../img/Logo-Black.svg" alt="Logo Gabriele Catelli Nero">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="servizi.html">Servizi</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="contatti.html">Contatti</a></li>
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+        
+    </header>
+
+    <!-- Contatti-->
+    <div class="container-bg">
+        
+    </div>
+
+    <div class="container-flex">
+        <div class="container">
+            <form action="action_page.php">
+        
+            <label for="fname">Nome</label>
+            <input type="text" id="fname" name="firstname" placeholder="Il tuo nome..">
+        
+            <label for="lname">Cognome</label>
+            <input type="text" id="lname" name="lastname" placeholder="Il tuo cognome..">
+        
+            <label for="country">Tipo di richiesta</label>
+            <select id="country" name="country">
+                <option value="GraphicDesigner">GraphicDesigner</option>
+                <option value="WebDesigner">WebDesigner</option>
+                <option value="WebDevoloper">WebDevoloper</option>
+            </select>
+        
+            <label for="subject">Oggetto</label>
+            <textarea id="subject" name="subject" placeholder="Scrivi qua.." style="height:200px"></textarea>
+        
+            <input class="bottone-contatti" type="submit" value="Invia">
+        
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="content-footer">
+            <div class="footer-summory">
+                <div class="content-summory">
+                    <img src="../img/Logo-White.svg" alt="">
+                    <p>Quisque tempus lacinia eros, nec rhoncus felis aliquam vitae.
+                        Cras nec aliquet tortor. Vivamus scelerisque luctus lorem in feugiat.
+                        Quisque feugiat eu ex volutpat efficitur. Maecenas vulputate arcu nibh,
+                        eu facilisis lacus convallis et. Quisque nec suscipit est, in iaculis odio. 
+                    </p>
+                    <a class="footer-contattami" href="contatti.html">Contattami</a>
+                </div>
+            </div>
+
+            <div class="footer-contatti">
+                <div class="content-contatti">
+                    <h3>Contatti</h3>
+                    <ul>
+                        <li>Viale Giacomo Puccini, 1482</li>
+                        <li>Telefono: +39 3208390984</li>
+                        <li>Email: gabriele.catelli@hotmail.it</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-social">
+                <div class="content-social">
+                    <h3><em>Seguimi</em></h3>
+                    <a href="#"><img class="icone-social facebook" src="../img/IconeSocial/FacebookWhite.svg" alt=""></a>
+                    <a href="#"><img class="icone-social instagram" src="../img/IconeSocial/InstagramWhite.svg" alt=""></a>
+                    <a href="#"><img class="icone-social youtube" src="../img/IconeSocial/YoutubeWhite.svg" alt=""></a>
+                    <a href="#"><img class="icone-social twitter" src="../img/IconeSocial/TwitterWhite.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

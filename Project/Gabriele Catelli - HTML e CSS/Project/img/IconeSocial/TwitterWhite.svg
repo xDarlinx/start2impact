@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 43.13 35.05">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(0.38 0.03)">
+      <rect class="cls-1" width="42" height="35"/>
+    </clipPath>
+  </defs>
+  <g id="Livello_2" data-name="Livello 2">
+    <g id="Livello_1-2" data-name="Livello 1">
+      <g id="Raggruppa_32" data-name="Raggruppa 32">
+        <g class="cls-2">
+          <g id="Raggruppa_31" data-name="Raggruppa 31">
+            <path id="Tracciato_24" data-name="Tracciato 24" class="cls-3" d="M42.75,4.13a18.39,18.39,0,0,1-5.1,1.4,8.84,8.84,0,0,0,3.9-4.9,17.73,17.73,0,0,1-5.61,2.15,8.84,8.84,0,0,0-15.3,6,9.11,9.11,0,0,0,.2,2A25,25,0,0,1,2.62,1.59,8.85,8.85,0,0,0,5.34,13.41a8.74,8.74,0,0,1-4-1.09v.1A8.87,8.87,0,0,0,8.43,21.1a9.12,9.12,0,0,1-2.32.3,8.51,8.51,0,0,1-1.67-.16A8.91,8.91,0,0,0,12.7,27.4a17.79,17.79,0,0,1-11,3.78,16.6,16.6,0,0,1-2.11-.13,24.8,24.8,0,0,0,13.56,4C29.45,35,38.35,21.54,38.35,9.86q0-.58,0-1.14a17.74,17.74,0,0,0,4.43-4.59" transform="translate(0.38 0.03)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
