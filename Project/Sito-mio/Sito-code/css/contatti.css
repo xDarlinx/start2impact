@@ -59,7 +59,7 @@ nav a {
 
 .container-bg {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     margin: 100px 0;
     background-image: url(/Project/Sito-mio/Sito-code/img/backgroundcontatti.jpg);
     background-position: center;
@@ -105,7 +105,7 @@ input[type=text], select, textarea {
   .container-flex{
       display: flex;
       justify-content: center;
-      margin-top: -500px;
+      margin-top: -550px;
   }
 
 label {
@@ -114,4 +114,9 @@ label {
 
 .container {
     font-family: 'bw_modelicamedium';
+}
+
+.bottone-contatti {
+    text-transform: uppercase;
+    font-size: 0.8em;
 }

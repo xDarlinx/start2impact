@@ -1,3 +1,36 @@
+@font-face {
+    font-family: 'bw_modelicabold';
+    src: url('/Project/Sito-mio//Sito-code/font/Webfontkit/bwmodelica-bold-webfont.woff2') format('woff2'),
+         url('/Project/Sito-mio/Sito-code/font/Webfontkit/bwmodelica-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: bold;
+
+}
+@font-face {
+    font-family: 'bw_modelicaextrabold';
+    src: url('/Project/Sito-mio/Sito-code/font/Webfontkit/bwmodelica-extrabold-webfont.woff2') format('woff2'),
+         url('/Project/Sito-mio/Sito-code/font/Webfontkit/bwmodelica-extrabold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: 700;
+
+}
+@font-face {
+    font-family: 'bw_modelicamedium';
+    src: url('/Project/Sito-mio/Sito-code/font/Webfontkit/bwmodelica-medium-webfont.woff2') format('woff2'),
+         url('/Project/Sito-mio/Sito-code/font/Webfontkit/bwmodelica-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: 500;
+
+}
+@font-face {
+    font-family: 'bw_modelicaregular';
+    src: url('/Project/Sito-mio/Sito-code/font/Webfontkit/bwmodelica-regular-webfont.woff2') format('woff2'),
+         url('/Project/Sito-mio/Sito-code/font/Webfontkit/bwmodelica-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* footer */ 
 
 footer {
@@ -8,17 +41,22 @@ footer {
 }
 
 footer img {
-    max-width: 45%;
+    width: 200px;
     margin: 20px;
 }
 
 .footer-summory {
     margin: 0 15px;
 }
+
+.footer-summory p {
+    font-family: 'bw_modelicaregular';
+}
 .footer-contattami {
     margin: 30px 20px;
     display: block;
     font-size: 25px;
+    font-family: 'bw_modelicabold';
     text-decoration: none;
     color: white;
     text-transform: uppercase;
